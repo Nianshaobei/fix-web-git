@@ -7,9 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="176f41a8-d107-42e5-b214-c5e9a4ae039a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/RESTfulDemoApplication_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/RESTfulDemoApplication_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/css/admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/css/amazeui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/css/amazeui.flat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/css/amazeui.flat.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/css/amazeui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/js/amazeui.ie8polyfill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/js/amazeui.ie8polyfill.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/js/amazeui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/js/amazeui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/js/amazeui.widgets.helper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/js/amazeui.widgets.helper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/js/handlebars.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RESTfulDemoApplication.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RESTfulDemoApplication.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/howtodoinjava/restful/UserManagementModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/howtodoinjava/restful/UserManagementModule.java" afterDir="false" />
@@ -51,19 +63,20 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/webapp" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2689655" />
     <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\小年\gitProjects\fix-web-git\RESTfulDemoApplication\webapp" />
+      <recent name="C:\Users\小年\IdeaProjects\RESTfulDemoApplication\src\main\resources" />
+      <recent name="C:\Users\小年\IdeaProjects\RESTfulDemoApplication\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\小年\IdeaProjects\RESTfulDemoApplication\src\main\java" />
       <recent name="C:\Users\小年\IdeaProjects\RESTfulDemoApplication" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\小年\IdeaProjects\RESTfulDemoApplication\src\main\resources" />
-      <recent name="C:\Users\小年\IdeaProjects\RESTfulDemoApplication\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -231,8 +244,24 @@
       <workItem from="1597665288732" duration="3649000" />
       <workItem from="1597669923585" duration="6983000" />
       <workItem from="1597712239140" duration="3254000" />
-      <workItem from="1597717104468" duration="8145000" />
+      <workItem from="1597717104468" duration="9578000" />
+      <workItem from="1597801301043" duration="17435000" />
     </task>
+    <task id="LOCAL-00001" summary="Use jQuery">
+      <created>1597758277852</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597758277852</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Use jQuery">
+      <created>1597758443956</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597758443956</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,10 +272,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Use jQuery" />
+    <option name="LAST_COMMIT_MESSAGE" value="Use jQuery" />
   </component>
 </project>

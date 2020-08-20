@@ -30,7 +30,7 @@ public class UserManagementModule
 
     @POST
     @Path("/resources/fix-parsing")
-    public String getResult(@FormParam("input") String input,
+    public String getResult(@FormParam("message") String message,
                             @FormParam("format") String format,
                             @FormParam("resource") String resource) throws IOException, FixMessageParser.ParseException, SAXException, DocumentException {
 
@@ -45,14 +45,14 @@ public class UserManagementModule
 
             StringBuilder result = new StringBuilder();
             SimpleFixMessageWriter writeToString = new SimpleFixMessageWriter(result);
-            parser.parse(input, writeToString, loadedTranslators);
+            parser.parse(message, writeToString, loadedTranslators);
             return result.toString();
 
         }else if(format.equals("1")){
 
             JsonObjectBuilder jsonBuilder = Json.createObjectBuilder();
             JsonFixMessageWriter writeToJson = new JsonFixMessageWriter(jsonBuilder);
-            parser.parse(input, writeToJson, loadedTranslators);
+            parser.parse(message, writeToJson, loadedTranslators);
             final JsonObject jsonObject = jsonBuilder.build();
             final Map<String, Boolean> map = new HashMap<>();
             map.put(JsonGenerator.PRETTY_PRINTING, Boolean.TRUE);
